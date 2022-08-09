@@ -8,6 +8,9 @@
 body{
     background-image: url(./img/97425716c885a8c6bde63a7f9380fd4b.jpg);
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -15,9 +18,8 @@ body{
     max-width: 1240px;
     /* height: 1036px; */
     background-color: rgba(0, 0, 0, 0.3);
-    
     margin: auto;
-    margin: 30px;
+    margin-top: 30px;
 }
 #header{
     text-align: center;
@@ -39,6 +41,7 @@ span{
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
     padding: 30px 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #name, #age, #email, #dropdown, #feedback{
     width: 100%;
@@ -47,6 +50,10 @@ span{
 }
 .input-box{
     margin-top: 10px;
+}
+#checkbox, #radio{
+margin-top: 20px;
+
 }
 textarea{
     resize: none;
