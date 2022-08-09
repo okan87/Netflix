@@ -6,15 +6,16 @@
     box-sizing: border-box;
 }
 body{
-    /* background-image: url(./img/97425716c885a8c6bde63a7f9380fd4b.jpg); */
+    background-image: url(./img/97425716c885a8c6bde63a7f9380fd4b.jpg);
+    color: white;
 
 }
 
 #container{
     max-width: 1240px;
-    height: 1036px;
+    /* height: 1036px; */
     background-color: rgba(0, 0, 0, 0.3);
-    /* color: white; */
+    
     margin: auto;
     margin: 30px;
 }
@@ -31,7 +32,40 @@ span{
 }
 #description {
     font-family: 'Sorts Mill Goudy', serif;
-    /* color: white; */
+   
 }
-
-
+.survey-form-container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+#name, #age, #email, #dropdown, #feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+.input-box{
+    margin-top: 10px;
+}
+textarea{
+    resize: none;
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.form-send{
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;
+}
+#form-button:hover{
+    background-color: white;
+    color: red;
+}
